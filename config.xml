@@ -1,0 +1,21 @@
+<cruisecontrol>
+	<project name="Alogorithms">
+		<bootstrappers>
+			<gitbootstrapper localWorkingCopy="checkout/Alogorithms" />
+		</bootstrappers>
+		<modificationset quietperiod="60">
+			<git localworkingcopy="checkout/Alogorithms" />
+		</modificationset>
+		<schedule interval="300">
+				<ant buildfile="cc-build.xml" target="biuldMvn" />
+		</schedule>
+		<log dir="logs/Alogorithms">
+			<merge dir="checkout/Alogorithms/build/test-results" />
+		</log>
+		<publishers>
+			<onsuccess>                
+				<artifactspublisher dest="artifacts/Alogorithms" file="checkout/Alogorithms/target/Alogorithms.jar"/>            
+			</onsuccess>
+		</publishers>
+	</project>
+</cruisecontrol>

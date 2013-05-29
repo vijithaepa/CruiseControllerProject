@@ -1,0 +1,7 @@
+
+Data set Before Sorting : 	[10, 67, 21, 96, 66, 48, 33, 3, 5, 90]
+Data set After Bubble Sorting : 	[3, 5, 10, 21, 33, 48, 66, 67, 90, 96]
+
+Data set Before Sorting : 	[77, 58, 22, 93, 55, 15, 15, 80, 90, 89]
+Data set After Quick Sorting : 	[15, 15, 22, 55, 58, 77, 80, 89, 90, 93]
+

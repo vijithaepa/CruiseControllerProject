@@ -1,0 +1,1208 @@
+2013-05-20 19:21:00,866 [main     ] INFO  Main             - CruiseControl Version 2.8.4 Compiled on September 15 2010 1952
+2013-05-20 19:21:00,888 [main     ] ERROR Main             - error setting config file on controller
+net.sourceforge.cruisecontrol.CruiseControlException: Config file not found: C:\Personal\Vijitha\CCBuilds\config.xml
+	at net.sourceforge.cruisecontrol.CruiseControlController.setConfigFile(CruiseControlController.java:88)
+	at net.sourceforge.cruisecontrol.Main.createController(Main.java:146)
+	at net.sourceforge.cruisecontrol.Main.start(Main.java:113)
+	at net.sourceforge.cruisecontrol.launch.Launcher.run(Launcher.java:259)
+	at net.sourceforge.cruisecontrol.launch.Launcher.main(Launcher.java:117)
+2013-05-20 19:21:00,896 [main     ] FATAL Main             - Config file not found: C:\Personal\Vijitha\CCBuilds\config.xml
+2013-05-20 21:51:41,139 [main     ] INFO  Main             - CruiseControl Version 2.8.4 Compiled on September 15 2010 1952
+2013-05-20 21:51:41,178 [main     ] ERROR Main             - error setting config file on controller
+net.sourceforge.cruisecontrol.CruiseControlException: Config file not found: C:\Personal\Vijitha\CCBuilds\config.xml
+	at net.sourceforge.cruisecontrol.CruiseControlController.setConfigFile(CruiseControlController.java:88)
+	at net.sourceforge.cruisecontrol.Main.createController(Main.java:146)
+	at net.sourceforge.cruisecontrol.Main.start(Main.java:113)
+	at net.sourceforge.cruisecontrol.launch.Launcher.run(Launcher.java:259)
+	at net.sourceforge.cruisecontrol.launch.Launcher.main(Launcher.java:117)
+2013-05-20 21:51:41,190 [main     ] FATAL Main             - Config file not found: C:\Personal\Vijitha\CCBuilds\config.xml
+2013-05-20 21:55:05,397 [main     ] INFO  Main             - CruiseControl Version 2.8.4 Compiled on September 15 2010 1952
+2013-05-20 21:55:05,431 [main     ] INFO  XMLConfigManager - reading settings from config file [C:\Personal\Vijitha\CCBuilds\config.xml]
+2013-05-20 21:55:05,949 [main     ] INFO  Log              - log directory specified in config file does not exist; creating: C:\Personal\Vijitha\CCBuilds\logs\Alogorithms
+2013-05-20 21:55:06,028 [main     ] INFO  CruiseControlController - projectName = [Alogorithms]
+2013-05-20 21:55:06,030 [main     ] INFO  XMLConfigManager - using settings from config file [C:\Personal\Vijitha\CCBuilds\config.xml]
+2013-05-20 21:55:06,049 [main     ] WARN  ProjectConfig    - No previously serialized project found [C:\Personal\Vijitha\CCBuilds\Alogorithms.ser], forcing a build.
+2013-05-20 21:55:06,052 [main     ] INFO  Project          - Project Alogorithms starting
+2013-05-20 21:55:06,054 [main     ] INFO  Project          - Project Alogorithms:  idle
+2013-05-20 21:55:06,058 [Project Alogorithms thread] INFO  Project          - Project Alogorithms started
+2013-05-20 21:55:06,062 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-20 21:55:06,718 [main     ] INFO  CruiseControlControllerAgent - Starting HttpAdaptor with CC-Stylesheets
+2013-05-20 21:55:06,770 [main     ] INFO  CruiseControlControllerAgent - starting httpAdaptor
+2013-05-20 21:55:06,781 [main     ] INFO  CruiseControlControllerAgent - starting rmiRegistry
+2013-05-20 21:55:06,943 [main     ] INFO  CruiseControlControllerAgent - starting connectorServer
+2013-05-20 21:55:32,484 [main     ] WARN  DashboardXmlConfigService - java.io.FileNotFoundException: dashboard-config.xml (The system cannot find the file specified)
+2013-05-20 21:55:35,327 [BuildQueueThread] INFO  BuildQueue       - BuildQueue started
+2013-05-20 21:55:35,329 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-20 21:55:35,355 [Thread-21] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-20 21:55:35,357 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-20 21:55:46,541 [Thread-21] INFO  GitBootstrapper  - Already up-to-date.
+2013-05-20 21:55:46,570 [Thread-21] INFO  Project          - Project Alogorithms:  checking for modifications
+2013-05-20 21:55:46,572 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: checking for modifications
+2013-05-20 21:55:46,692 [Thread-23] WARN  Git              - warning: Log for '' only goes back to Mon, 20 May 2013 18:28:44 +1000.
+2013-05-20 21:55:46,700 [Thread-21] INFO  Project          - Project Alogorithms:  No modifications found, build not necessary.
+2013-05-20 21:55:46,702 [Thread-21] INFO  Project          - Project Alogorithms:  Building anyway, since build was explicitly forced.
+2013-05-20 21:55:46,706 [Thread-21] INFO  Project          - Project Alogorithms:  now building
+2013-05-20 21:55:46,708 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: now building
+2013-05-20 21:55:47,289 [Thread-26] INFO  ScriptRunner     - Buildfile: cc-build.xml
+2013-05-20 21:55:48,093 [Thread-26] INFO  ScriptRunner     -      [echo] pulling in property files
+2013-05-20 21:55:48,360 [Thread-26] INFO  ScriptRunner     - ccAntProgress -- init
+2013-05-20 21:55:48,365 [Thread-26] INFO  ScriptRunner     -      [echo] M2_HOME : C:\SWTools\apache-maven-3.0.5
+2013-05-20 21:55:48,468 [Thread-26] INFO  ScriptRunner     - ccAntProgress -- checkOutGit
+2013-05-20 21:55:48,569 [Thread-26] INFO  ScriptRunner     -    [delete] Deleting directory C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms
+2013-05-20 21:55:49,039 [Thread-26] INFO  ScriptRunner     -      [echo] git clone
+2013-05-20 21:55:49,626 [Thread-26] INFO  ScriptRunner     -      [exec] Cloning into 'Alogorithms'...
+2013-05-20 21:55:56,539 [Thread-26] INFO  ScriptRunner     -      [echo] git pull
+2013-05-20 21:56:04,978 [Thread-26] INFO  ScriptRunner     -      [exec] Already up-to-date.
+2013-05-20 21:56:05,007 [Thread-26] INFO  ScriptRunner     - ccAntProgress -- biuldMvn
+2013-05-20 21:56:10,277 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Scanning for projects...
+2013-05-20 21:56:10,683 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO]                                                                         
+2013-05-20 21:56:10,690 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] ------------------------------------------------------------------------
+2013-05-20 21:56:10,696 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Building Algorithm 0.1-SNAPSHOT
+2013-05-20 21:56:10,702 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] ------------------------------------------------------------------------
+2013-05-20 21:56:12,090 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:12,104 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ Algorithm ---
+2013-05-20 21:56:14,425 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [debug] execute contextualize
+2013-05-20 21:56:14,560 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-05-20 21:56:14,571 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] skip non existing resourceDirectory C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\src\main\resources
+2013-05-20 21:56:14,579 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:14,585 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ Algorithm ---
+2013-05-20 21:56:15,065 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-05-20 21:56:15,072 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Compiling 2 source files to C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\target\classes
+2013-05-20 21:56:16,994 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:17,035 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ Algorithm ---
+2013-05-20 21:56:17,041 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [debug] execute contextualize
+2013-05-20 21:56:17,048 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2013-05-20 21:56:17,056 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] skip non existing resourceDirectory C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\src\test\resources
+2013-05-20 21:56:17,064 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:17,069 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ Algorithm ---
+2013-05-20 21:56:17,079 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2013-05-20 21:56:17,086 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Compiling 2 source files to C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\target\test-classes
+2013-05-20 21:56:18,361 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:18,366 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-surefire-plugin:2.10:test (default-test) @ Algorithm ---
+2013-05-20 21:56:19,862 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Surefire report directory: C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\target\surefire-reports
+2013-05-20 21:56:20,186 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:20,191 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] -------------------------------------------------------
+2013-05-20 21:56:20,198 [Thread-26] INFO  ScriptRunner     - [artifact:mvn]  T E S T S
+2013-05-20 21:56:20,204 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] -------------------------------------------------------
+2013-05-20 21:56:21,161 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Running com.alogorithm.sorting.TestSortingAlgorithms
+2013-05-20 21:56:21,346 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:21,377 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Data set Before Sorting : 	[41, 37, 88, 19, 58, 24, 42, 5, 20, 23]
+2013-05-20 21:56:21,451 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Data set After Bubble Sorting : 	[5, 19, 20, 23, 24, 37, 41, 42, 58, 88]
+2013-05-20 21:56:21,460 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:21,479 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Data set Before Sorting : 	[80, 94, 61, 97, 48, 38, 92, 78, 66, 38]
+2013-05-20 21:56:21,485 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Data set After Quick Sorting : 	[38, 38, 48, 61, 66, 78, 80, 92, 94, 97]
+2013-05-20 21:56:21,523 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+2013-05-20 21:56:21,528 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Running com.genaral.pascaltrangle.TestPascalTraingle
+2013-05-20 21:56:21,533 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+2013-05-20 21:56:21,539 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:21,543 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Results :
+2013-05-20 21:56:21,548 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:21,552 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+2013-05-20 21:56:21,558 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 
+2013-05-20 21:56:21,562 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] 
+2013-05-20 21:56:21,569 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ Algorithm ---
+2013-05-20 21:56:22,975 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Building jar: C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\target\Algorithm-0.1-SNAPSHOT.jar
+2013-05-20 21:56:23,038 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] ------------------------------------------------------------------------
+2013-05-20 21:56:23,045 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] BUILD SUCCESS
+2013-05-20 21:56:23,050 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] ------------------------------------------------------------------------
+2013-05-20 21:56:23,056 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Total time: 12.862s
+2013-05-20 21:56:23,062 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Finished at: Mon May 20 21:56:23 EST 2013
+2013-05-20 21:56:23,200 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] Final Memory: 13M/32M
+2013-05-20 21:56:23,205 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] [INFO] ------------------------------------------------------------------------
+2013-05-20 21:56:23,211 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] org.apache.tools.ant.ExitException: Permission ("java.lang.RuntimePermission" "exitVM") was not granted.
+2013-05-20 21:56:23,213 [Thread-25] WARN  ScriptRunner     - [artifact:mvn] Java Result: 100
+2013-05-20 21:56:23,235 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.types.Permissions$MySM.checkExit(Permissions.java:174)
+2013-05-20 21:56:23,242 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at java.lang.Runtime.exit(Runtime.java:105)
+2013-05-20 21:56:23,248 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at java.lang.System.exit(System.java:960)
+2013-05-20 21:56:23,254 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:354)
+2013-05-20 21:56:23,260 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.codehaus.classworlds.Launcher.main(Launcher.java:47)
+2013-05-20 21:56:23,266 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2013-05-20 21:56:23,272 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+2013-05-20 21:56:23,278 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2013-05-20 21:56:23,283 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at java.lang.reflect.Method.invoke(Method.java:601)
+2013-05-20 21:56:23,290 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.taskdefs.ExecuteJava.run(ExecuteJava.java:217)
+2013-05-20 21:56:23,320 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.taskdefs.ExecuteJava.execute(ExecuteJava.java:152)
+2013-05-20 21:56:23,326 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.taskdefs.Java.run(Java.java:747)
+2013-05-20 21:56:23,332 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.taskdefs.Java.executeJava(Java.java:201)
+2013-05-20 21:56:23,338 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.taskdefs.Java.execute(Java.java:104)
+2013-05-20 21:56:23,344 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.maven.artifact.ant.Mvn.execute(Mvn.java:91)
+2013-05-20 21:56:23,350 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:288)
+2013-05-20 21:56:23,355 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+2013-05-20 21:56:23,362 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2013-05-20 21:56:23,367 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at java.lang.reflect.Method.invoke(Method.java:601)
+2013-05-20 21:56:23,373 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:105)
+2013-05-20 21:56:23,379 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Task.perform(Task.java:348)
+2013-05-20 21:56:23,385 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Target.execute(Target.java:357)
+2013-05-20 21:56:23,393 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Target.performTasks(Target.java:385)
+2013-05-20 21:56:23,403 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1329)
+2013-05-20 21:56:23,409 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Project.executeTarget(Project.java:1298)
+2013-05-20 21:56:23,414 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+2013-05-20 21:56:23,420 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Project.executeTargets(Project.java:1181)
+2013-05-20 21:56:23,427 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Main.runBuild(Main.java:698)
+2013-05-20 21:56:23,433 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.Main.startAnt(Main.java:199)
+2013-05-20 21:56:23,442 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:257)
+2013-05-20 21:56:23,450 [Thread-26] INFO  ScriptRunner     - [artifact:mvn] 	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:104)
+2013-05-20 21:56:23,455 [Thread-26] INFO  ScriptRunner     - 
+2013-05-20 21:56:23,461 [Thread-26] INFO  ScriptRunner     - BUILD SUCCESSFUL
+2013-05-20 21:56:23,466 [Thread-26] INFO  ScriptRunner     - Total time: 35 seconds
+2013-05-20 21:56:23,729 [Thread-21] INFO  ProjectController - Alogorithms Controller: build result event: build successful
+2013-05-20 21:56:23,748 [Thread-21] INFO  Project          - Project Alogorithms:  merging accumulated log files
+2013-05-20 21:56:23,751 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: merging accumulated log files
+2013-05-20 21:56:23,755 [Thread-21] INFO  MergeLogger      - checkout\Alogorithms\build\test-results does not exist. Skipping ...
+2013-05-20 21:56:23,811 [Thread-21] INFO  Project          - Project Alogorithms:  build successful
+2013-05-20 21:56:23,821 [Thread-21] INFO  Project          - Project Alogorithms:  publishing build results
+2013-05-20 21:56:23,824 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: publishing build results
+2013-05-20 21:56:23,875 [Thread-21] ERROR Project          - exception publishing results with net.sourceforge.cruisecontrol.publishers.OnSuccessPublisher for project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: target file C:\Personal\Vijitha\CCBuilds\checkout\Alogorithms\target\Alogorithms.jar does not exist
+	at net.sourceforge.cruisecontrol.publishers.ArtifactsPublisher.publishFile(ArtifactsPublisher.java:111)
+	at net.sourceforge.cruisecontrol.publishers.ArtifactsPublisher.publish(ArtifactsPublisher.java:91)
+	at net.sourceforge.cruisecontrol.publishers.ConditionalPublisher.publish(ConditionalPublisher.java:59)
+	at net.sourceforge.cruisecontrol.Project.publish(Project.java:761)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:265)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-20 21:56:23,891 [Thread-21] INFO  Project          - Project Alogorithms:  idle
+2013-05-20 21:56:23,892 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-20 21:56:23,896 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-20 21:56:23,898 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-20 21:56:23,901 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-20 22:01:23,887 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-20 22:01:23,888 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-20 22:01:23,894 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-20 22:01:23,991 [Thread-27] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-20 22:01:23,993 [Thread-27] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-20 22:01:32,592 [Thread-27] INFO  GitBootstrapper  - Already up-to-date.
+2013-05-20 22:01:32,617 [Thread-27] INFO  Project          - Project Alogorithms:  checking for modifications
+2013-05-20 22:01:32,619 [Thread-27] INFO  ProjectController - Alogorithms Controller: build progress event: checking for modifications
+2013-05-20 22:01:32,716 [Thread-29] WARN  Git              - warning: Log for '' only goes back to Mon, 20 May 2013 21:55:56 +1000.
+2013-05-20 22:01:32,725 [Thread-27] INFO  Project          - Project Alogorithms:  No modifications found, build not necessary.
+2013-05-20 22:01:32,727 [Thread-27] INFO  Project          - Project Alogorithms:  idle
+2013-05-20 22:01:32,728 [Thread-27] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-20 22:01:32,730 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-20 22:01:32,732 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-20 22:01:32,734 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:16:37,788 [main     ] INFO  Main             - CruiseControl Version 2.8.4 Compiled on September 15 2010 1952
+2013-05-21 17:16:37,899 [main     ] INFO  XMLConfigManager - reading settings from config file [C:\Personal\Vijitha\CCBuilds\config.xml]
+2013-05-21 17:16:40,296 [main     ] INFO  Log              - log directory specified in config file does not exist; creating: C:\Personal\Vijitha\CCBuilds\logs\Alogorithms
+2013-05-21 17:16:40,482 [main     ] INFO  CruiseControlController - projectName = [Alogorithms]
+2013-05-21 17:16:40,484 [main     ] INFO  XMLConfigManager - using settings from config file [C:\Personal\Vijitha\CCBuilds\config.xml]
+2013-05-21 17:16:40,545 [main     ] WARN  ProjectConfig    - No previously serialized project found [C:\Personal\Vijitha\CCBuilds\Alogorithms.ser], forcing a build.
+2013-05-21 17:16:40,548 [main     ] INFO  Project          - Project Alogorithms starting
+2013-05-21 17:16:40,549 [main     ] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:16:40,585 [Project Alogorithms thread] INFO  Project          - Project Alogorithms started
+2013-05-21 17:16:40,625 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:16:44,597 [main     ] INFO  CruiseControlControllerAgent - Starting HttpAdaptor with CC-Stylesheets
+2013-05-21 17:16:44,680 [main     ] INFO  CruiseControlControllerAgent - starting httpAdaptor
+2013-05-21 17:16:44,786 [main     ] INFO  CruiseControlControllerAgent - starting rmiRegistry
+2013-05-21 17:16:46,542 [main     ] INFO  CruiseControlControllerAgent - starting connectorServer
+2013-05-21 17:17:24,122 [main     ] WARN  DashboardXmlConfigService - java.io.FileNotFoundException: dashboard-config.xml (The system cannot find the file specified)
+2013-05-21 17:17:33,467 [BuildQueueThread] INFO  BuildQueue       - BuildQueue started
+2013-05-21 17:17:33,555 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:17:33,611 [Thread-21] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:17:33,613 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:17:36,112 [Thread-22] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:17:36,233 [Thread-21] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:17:36,234 [Thread-21] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:17:36,238 [Thread-21] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:17:36,284 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:17:36,286 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:17:36,291 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:22:36,276 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:22:36,278 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:22:36,288 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:22:36,370 [Thread-23] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:22:36,372 [Thread-23] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:22:38,344 [Thread-24] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:22:38,389 [Thread-23] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:22:38,391 [Thread-23] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:22:38,393 [Thread-23] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:22:38,410 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:22:38,412 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:22:38,414 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:27:38,400 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:27:38,442 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:27:38,456 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:27:38,502 [Thread-25] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:27:38,504 [Thread-25] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:27:42,802 [Thread-26] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:27:42,898 [Thread-25] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:27:42,899 [Thread-25] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:27:42,904 [Thread-25] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:27:42,934 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:27:42,937 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:27:42,943 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:32:42,936 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:32:42,937 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:32:42,947 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:32:43,036 [Thread-27] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:32:43,038 [Thread-27] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:32:44,166 [Thread-28] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:32:44,209 [Thread-27] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:32:44,210 [Thread-27] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:32:44,213 [Thread-27] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:32:44,229 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:32:44,231 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:32:44,233 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:37:44,218 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:37:44,221 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:37:44,237 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:37:44,273 [Thread-29] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:37:44,275 [Thread-29] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:37:45,297 [Thread-30] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:37:45,343 [Thread-29] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:37:45,344 [Thread-29] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:37:45,347 [Thread-29] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:37:45,363 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:37:45,365 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:37:45,367 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:42:45,352 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:42:45,353 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:42:45,367 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:42:45,428 [Thread-31] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:42:45,431 [Thread-31] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:42:46,533 [Thread-32] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:42:46,579 [Thread-31] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:42:46,581 [Thread-31] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:42:46,584 [Thread-31] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:42:46,604 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:42:46,606 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:42:46,608 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:47:46,594 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:47:46,596 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:47:46,605 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:47:46,702 [Thread-33] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:47:46,704 [Thread-33] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:47:47,769 [Thread-34] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:47:47,818 [Thread-33] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:47:47,819 [Thread-33] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:47:47,821 [Thread-33] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:47:47,839 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:47:47,841 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:47:47,842 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:52:47,828 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:52:47,829 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:52:47,838 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:52:47,933 [Thread-35] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:52:47,935 [Thread-35] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:52:48,969 [Thread-36] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:52:49,013 [Thread-35] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:52:49,015 [Thread-35] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:52:49,017 [Thread-35] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:52:49,033 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:52:49,035 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:52:49,037 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 17:57:49,022 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 17:57:49,023 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 17:57:49,032 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 17:57:49,087 [Thread-37] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 17:57:49,089 [Thread-37] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 17:57:50,075 [Thread-38] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 17:57:50,114 [Thread-37] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 17:57:50,115 [Thread-37] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 17:57:50,117 [Thread-37] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 17:57:50,134 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 17:57:50,138 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 17:57:50,140 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:02:50,125 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:02:50,126 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:02:50,135 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:02:50,236 [Thread-39] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:02:50,238 [Thread-39] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:02:51,253 [Thread-40] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:02:51,293 [Thread-39] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:02:51,295 [Thread-39] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:02:51,297 [Thread-39] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:02:51,314 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:02:51,315 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:02:51,317 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:07:51,302 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:07:51,303 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:07:51,312 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:07:51,405 [Thread-41] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:07:51,407 [Thread-41] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:07:52,384 [Thread-42] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:07:52,429 [Thread-41] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:07:52,430 [Thread-41] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:07:52,432 [Thread-41] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:07:52,452 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:07:52,454 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:07:52,455 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:12:52,440 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:12:52,441 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:12:52,449 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:12:52,514 [Thread-43] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:12:52,516 [Thread-43] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:12:53,528 [Thread-44] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:12:53,607 [Thread-43] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:12:53,610 [Thread-43] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:12:53,613 [Thread-43] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:12:53,630 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:12:53,634 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:12:53,636 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:17:53,622 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:17:53,623 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:17:53,635 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:17:53,694 [Thread-45] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:17:53,696 [Thread-45] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:17:54,732 [Thread-46] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:17:54,779 [Thread-45] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:17:54,780 [Thread-45] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:17:54,783 [Thread-45] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:17:54,803 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:17:54,806 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:17:54,808 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:22:54,794 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:22:54,795 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:22:54,807 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:22:54,815 [Thread-47] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:22:54,817 [Thread-47] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:22:55,857 [Thread-48] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:22:55,901 [Thread-47] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:22:55,903 [Thread-47] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:22:55,905 [Thread-47] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:22:55,922 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:22:55,925 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:22:55,927 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:27:55,912 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:27:55,913 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:27:55,923 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:27:56,021 [Thread-49] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:27:56,023 [Thread-49] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:27:57,083 [Thread-50] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:27:57,128 [Thread-49] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:27:57,130 [Thread-49] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:27:57,132 [Thread-49] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:27:57,151 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:27:57,154 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:27:57,156 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:32:57,142 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:32:57,143 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:32:57,153 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:32:57,245 [Thread-51] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:32:57,247 [Thread-51] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:32:58,291 [Thread-52] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:32:58,352 [Thread-51] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:32:58,353 [Thread-51] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:32:58,356 [Thread-51] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:32:58,378 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:32:58,380 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:32:58,382 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:37:58,367 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:37:58,368 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:37:58,377 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:37:58,420 [Thread-53] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:37:58,422 [Thread-53] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:37:59,486 [Thread-54] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:37:59,530 [Thread-53] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:37:59,532 [Thread-53] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:37:59,533 [Thread-53] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:37:59,553 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:37:59,556 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:37:59,559 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:42:59,556 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:42:59,558 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:42:59,641 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:42:59,697 [Thread-55] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:42:59,699 [Thread-55] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:43:04,424 [Thread-56] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:43:04,547 [Thread-55] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:43:04,549 [Thread-55] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:43:04,552 [Thread-55] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:43:04,572 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:43:04,574 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:43:04,577 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:48:04,564 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:48:04,565 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:48:04,581 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:48:04,617 [Thread-57] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:48:04,619 [Thread-57] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:48:06,135 [Thread-58] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:48:06,178 [Thread-57] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:48:06,179 [Thread-57] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:48:06,182 [Thread-57] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:48:06,200 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:48:06,201 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:48:06,203 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:53:06,188 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:53:06,189 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:53:06,198 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:53:06,247 [Thread-59] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:53:06,249 [Thread-59] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:53:07,223 [Thread-60] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:53:07,267 [Thread-59] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:53:07,268 [Thread-59] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:53:07,270 [Thread-59] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:53:07,288 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:53:07,290 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:53:07,292 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 18:58:07,277 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 18:58:07,278 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 18:58:07,289 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 18:58:07,379 [Thread-61] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 18:58:07,381 [Thread-61] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 18:58:08,406 [Thread-62] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 18:58:08,449 [Thread-61] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 18:58:08,450 [Thread-61] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 18:58:08,452 [Thread-61] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 18:58:08,469 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 18:58:08,471 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 18:58:08,472 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:03:08,458 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:03:08,459 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:03:08,468 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:03:08,527 [Thread-63] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:03:08,529 [Thread-63] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:03:09,573 [Thread-64] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:03:09,619 [Thread-63] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:03:09,621 [Thread-63] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:03:09,623 [Thread-63] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:03:09,638 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:03:09,640 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:03:09,641 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:08:09,626 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:08:09,627 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:08:09,636 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:08:09,705 [Thread-65] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:08:09,707 [Thread-65] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:08:10,744 [Thread-66] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:08:10,792 [Thread-65] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:08:10,793 [Thread-65] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:08:10,796 [Thread-65] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:08:10,815 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:08:10,817 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:08:10,819 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:13:10,804 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:13:10,805 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:13:10,814 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:13:10,864 [Thread-67] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:13:10,866 [Thread-67] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:13:11,848 [Thread-68] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:13:11,893 [Thread-67] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:13:11,894 [Thread-67] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:13:11,896 [Thread-67] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:13:11,916 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:13:11,918 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:13:11,919 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:18:11,904 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:18:11,905 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:18:11,914 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:18:11,923 [Thread-69] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:18:11,925 [Thread-69] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:18:12,942 [Thread-70] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:18:12,986 [Thread-69] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:18:12,988 [Thread-69] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:18:12,990 [Thread-69] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:18:13,008 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:18:13,010 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:18:13,012 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:23:12,997 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:23:12,998 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:23:13,009 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:23:13,066 [Thread-71] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:23:13,069 [Thread-71] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:23:14,487 [Thread-72] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:23:14,545 [Thread-71] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:23:14,548 [Thread-71] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:23:14,552 [Thread-71] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:23:14,594 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:23:14,628 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:23:14,630 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:28:14,616 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:28:14,617 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:28:14,628 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:28:14,710 [Thread-73] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:28:14,712 [Thread-73] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:28:16,024 [Thread-74] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:28:16,077 [Thread-73] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:28:16,078 [Thread-73] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:28:16,080 [Thread-73] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:28:16,102 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:28:16,106 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:28:16,108 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:33:16,094 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:33:16,095 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:33:16,105 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:33:16,158 [Thread-75] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:33:16,161 [Thread-75] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:33:17,272 [Thread-76] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:33:17,321 [Thread-75] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:33:17,323 [Thread-75] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:33:17,325 [Thread-75] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:33:17,346 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:33:17,348 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:33:17,350 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:38:17,336 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:38:17,337 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:38:17,347 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:38:17,407 [Thread-77] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:38:17,409 [Thread-77] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:38:18,475 [Thread-78] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:38:18,539 [Thread-77] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:38:18,541 [Thread-77] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:38:18,544 [Thread-77] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:38:18,567 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:38:18,571 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:38:18,574 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:43:18,561 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:43:18,562 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:43:18,571 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:43:18,665 [Thread-79] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:43:18,671 [Thread-79] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:43:19,733 [Thread-80] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:43:19,780 [Thread-79] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:43:19,782 [Thread-79] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:43:19,786 [Thread-79] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:43:19,808 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:43:19,810 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:43:19,813 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:48:19,798 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:48:19,799 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:48:19,808 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:48:19,813 [Thread-81] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:48:19,815 [Thread-81] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:48:20,837 [Thread-82] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:48:20,879 [Thread-81] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:48:20,880 [Thread-81] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:48:20,883 [Thread-81] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:48:20,899 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:48:20,901 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:48:20,903 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:53:20,888 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:53:20,889 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:53:20,897 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:53:20,935 [Thread-83] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:53:20,937 [Thread-83] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:53:21,918 [Thread-84] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:53:21,964 [Thread-83] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:53:21,966 [Thread-83] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:53:21,968 [Thread-83] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:53:21,989 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:53:21,992 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:53:21,995 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 19:58:21,980 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 19:58:21,981 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 19:58:21,990 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 19:58:21,996 [Thread-85] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 19:58:21,998 [Thread-85] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 19:58:23,040 [Thread-86] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 19:58:23,084 [Thread-85] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 19:58:23,085 [Thread-85] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 19:58:23,087 [Thread-85] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 19:58:23,103 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 19:58:23,105 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 19:58:23,108 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:03:23,093 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:03:23,094 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:03:23,103 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:03:23,106 [Thread-87] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:03:23,108 [Thread-87] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:03:24,341 [Thread-88] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:03:24,389 [Thread-87] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:03:24,391 [Thread-87] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:03:24,394 [Thread-87] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:03:24,413 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:03:24,416 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:03:24,418 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:08:24,404 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:08:24,405 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:08:24,414 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:08:24,476 [Thread-89] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:08:24,478 [Thread-89] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:08:25,495 [Thread-90] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:08:25,538 [Thread-89] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:08:25,539 [Thread-89] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:08:25,541 [Thread-89] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:08:25,557 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:08:25,560 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:08:25,561 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:13:25,546 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:13:25,547 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:13:25,556 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:13:25,640 [Thread-91] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:13:25,642 [Thread-91] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:13:26,627 [Thread-92] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:13:26,670 [Thread-91] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:13:26,671 [Thread-91] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:13:26,674 [Thread-91] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:13:26,695 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:13:26,697 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:13:26,699 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:18:26,684 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:18:26,685 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:18:26,694 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:18:26,726 [Thread-93] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:18:26,728 [Thread-93] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:18:27,746 [Thread-94] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:18:27,790 [Thread-93] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:18:27,791 [Thread-93] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:18:27,793 [Thread-93] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:18:27,810 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:18:27,812 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:18:27,813 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:23:27,798 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:23:27,799 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:23:27,809 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:23:27,841 [Thread-95] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:23:27,843 [Thread-95] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:23:28,887 [Thread-96] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:23:28,953 [Thread-95] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:23:28,955 [Thread-95] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:23:28,957 [Thread-95] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:23:28,974 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:23:28,976 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:23:28,978 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:28:28,963 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:28:28,964 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:28:28,973 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:28:29,052 [Thread-97] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:28:29,054 [Thread-97] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:28:30,053 [Thread-98] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:28:30,095 [Thread-97] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:28:30,096 [Thread-97] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:28:30,098 [Thread-97] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:28:30,114 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:28:30,116 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:28:30,118 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:33:30,103 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:33:30,104 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:33:30,113 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:33:30,170 [Thread-99] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:33:30,172 [Thread-99] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:33:31,178 [Thread-100] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:33:31,221 [Thread-99] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:33:31,223 [Thread-99] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:33:31,225 [Thread-99] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:33:31,242 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:33:31,245 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:33:31,247 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:38:31,233 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:38:31,234 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:38:31,244 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:38:31,325 [Thread-101] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:38:31,327 [Thread-101] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:38:32,405 [Thread-102] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:38:32,450 [Thread-101] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:38:32,451 [Thread-101] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:38:32,454 [Thread-101] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:38:32,471 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:38:32,474 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:38:32,476 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:43:32,462 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 20:43:32,463 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 20:43:32,472 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 20:43:32,535 [Thread-103] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 20:43:32,537 [Thread-103] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 20:43:33,514 [Thread-104] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 20:43:33,558 [Thread-103] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 20:43:33,559 [Thread-103] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 20:43:33,562 [Thread-103] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 20:43:33,584 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 20:43:33,587 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 20:43:33,590 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 20:48:21,595 [Timer-6  ] WARN  BuildLoopStatusReportTask - Failed to reach dashboard instance : http://localhost:8080/dashboard/buildloop/listener, either the dashboard has not started up or there is a network problem.
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:77)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:105)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1115)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1832)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1590)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:995)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:397)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:170)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:396)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:324)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:90)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:75)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2013-05-21 20:48:33,586 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  in build queue
+2013-05-21 21:14:41,594 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: in build queue
+2013-05-21 21:14:41,646 [BuildQueueThread] INFO  BuildQueue       - now adding to the thread queue: Alogorithms
+2013-05-21 21:14:41,682 [Thread-105] INFO  Project          - Project Alogorithms:  bootstrapping
+2013-05-21 21:14:41,688 [Thread-105] INFO  ProjectController - Alogorithms Controller: build progress event: bootstrapping
+2013-05-21 21:14:47,584 [Thread-106] WARN  GitBootstrapper  - fatal: Not a git repository (or any of the parent directories): .git
+2013-05-21 21:14:47,627 [Thread-105] INFO  Project          - Project Alogorithms:  idle
+2013-05-21 21:14:47,628 [Thread-105] INFO  ProjectController - Alogorithms Controller: build progress event: idle
+2013-05-21 21:14:47,630 [Thread-105] ERROR Project          - exception attempting build in project Alogorithms
+net.sourceforge.cruisecontrol.CruiseControlException: git process exited with error code 128
+	at net.sourceforge.cruisecontrol.util.CommandExecutor.executeAndWait(CommandExecutor.java:119)
+	at net.sourceforge.cruisecontrol.util.Commandline.executeAndWait(Commandline.java:653)
+	at net.sourceforge.cruisecontrol.bootstrappers.GitBootstrapper.bootstrap(GitBootstrapper.java:96)
+	at net.sourceforge.cruisecontrol.Project.bootstrap(Project.java:779)
+	at net.sourceforge.cruisecontrol.Project.build(Project.java:193)
+	at net.sourceforge.cruisecontrol.Project.execute(Project.java:148)
+	at net.sourceforge.cruisecontrol.ProjectConfig.execute(ProjectConfig.java:408)
+	at net.sourceforge.cruisecontrol.ProjectWrapper.run(ProjectWrapper.java:69)
+	at java.lang.Thread.run(Thread.java:722)
+2013-05-21 21:14:47,649 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  next build in 5 minutes 
+2013-05-21 21:14:47,651 [Project Alogorithms thread] INFO  Project          - Project Alogorithms:  waiting for next time to build
+2013-05-21 21:14:47,652 [Project Alogorithms thread] INFO  ProjectController - Alogorithms Controller: build progress event: waiting for next time to build
+2013-05-21 21:15:14,594 [Timer-6  ] WARN  BuildLoopStatusReportTask - Failed to reach dashboard instance : http://localhost:8080/dashboard/buildloop/listener, either the dashboard has not started up or there is a network problem.
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:77)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:105)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1115)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1832)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1590)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:995)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:397)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:170)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:396)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:324)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:90)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:75)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+2013-05-21 21:16:54,634 [Timer-6  ] WARN  BuildLoopStatusReportTask - Failed to reach dashboard instance : http://localhost:8080/dashboard/buildloop/listener, either the dashboard has not started up or there is a network problem.
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:254)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:77)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:105)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1115)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1832)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1590)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:995)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:397)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:170)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:396)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:324)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:90)
+	at net.sourceforge.cruisecontrol.report.BuildLoopStatusReportTask.run(BuildLoopStatusReportTask.java:75)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)

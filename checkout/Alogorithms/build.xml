@@ -1,0 +1,59 @@
+<project basedir="." default="build" name="Algorithems">
+
+	<property name="report.dir" value="reports" />
+	<property name="src.dir" value="src" />
+	<property name="test.dir" value="test" />
+	<property name="build.dir" value="bin" />
+
+	<path id="classpath">
+		<fileset dir="lib" includes="*.jar" />
+		<pathelement location="${build.dir}" />
+	</path>
+
+	<target name="build" depends="test-report" />
+
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${report.dir}" />
+	</target>
+
+	<target name="init">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${report.dir}" />
+		<mkdir dir="${report.dir}/raw/" />
+		<mkdir dir="${report.dir}/html/" />
+	</target>
+
+
+	<target name="compile" depends="clean, init">
+		<javac srcdir="${src.dir}" destdir="${build.dir}" debug="on" fork="false" classpathref="classpath" />
+	</target>
+
+	<target name="compile.test" depends="compile" description="Compile Junit test classes">
+		<javac srcdir="${test.dir}" destdir="${build.dir}" classpathref="classpath" />
+	</target>
+
+	<target name="run-tests" depends="compile, compile.test" description="run your test suite">
+
+		<junit printsummary="yes" haltonfailure="yes" showoutput="yes" fork="yes" forkmode="once" >
+			<classpath refid="classpath" />
+
+			<batchtest todir="${report.dir}/raw/">
+				<formatter type="xml" />
+				<fileset dir="${test.dir}">
+					<include name="**/Test*.java" />
+				</fileset>
+			</batchtest>
+		</junit>
+	</target>
+
+	<target name="test-report" depends="run-tests">
+		<junitreport todir="${report.dir}">
+			<fileset dir="${report.dir}/raw/">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report format="frames" todir="${report.dir}\html\" />
+		</junitreport>
+	</target>
+
+</project>
