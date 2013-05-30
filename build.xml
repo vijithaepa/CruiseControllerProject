@@ -50,7 +50,9 @@
 		</junit>
 		<fail message="***** Tests Error Check reports for details." if="test.error" />
 		<fail message="***** Tests failed. Check reports for details." if="test.failed" />
-
+	</target>
+	
+	<target name="unit-test-report" depends="unit-test">
 		<junitreport todir="${test.report.dir}">
 			<fileset dir="${test.report.dir}/raw/">
 				<include name="TEST-*.xml" />
