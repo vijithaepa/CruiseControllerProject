@@ -16,7 +16,7 @@
 
 	<taskdef classpathref="classpath" resource="tasks.properties" />
 
-	<target name="build" depends="clean" />
+	<target name="build" depends="unit-test,coverage-report-html" />
 
 	<target name="clean">
 		<delete dir="${build.dir}" />
@@ -38,7 +38,7 @@
 		<javac srcdir="${test.dir}" destdir="${build.dir}" classpathref="classpath" />
 	</target>
 
-	<target name="unit-tests" depends="compile" description="run your test suite and generate report">
+	<target name="unit-test" depends="compile" description="run your test suite and generate report">
 		<junit printsummary="yes" haltonfailure="yes" showoutput="yes" errorProperty="test.error" failureProperty="test.failed" fork="true">
 			<classpath refid="classpath" />
 			<batchtest todir="${test.report.dir}/raw/">
