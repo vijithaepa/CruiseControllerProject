@@ -1,4 +1,4 @@
-<project name="cc-build" default="biuldMvn" basedir="checkout" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
+<project name="cc-build" default="biuldProject" basedir="checkout" xmlns:artifact="antlib:org.apache.maven.artifact.ant">
 	<echo message="pulling in property files" />
 	<property file="../cc-build.properties" />
 	<property environment="env" />
@@ -44,6 +44,10 @@
 		<fail if="build.failed" message="Couldnt find env.M2_HOME : Maven Home: ${env.M2_HOME}" />
 	</target>
 
+	<target name="biuldProject" depends="checkOutGit">
+		<ant antfile="build.xml" dir="${basedir}/${project.name}" target="build" />
+	</target>
+	
 	<target name="biuldMvn" depends="checkOutGit">
 		<artifact:mvn pom="${project.name}/pom.xml" mavenHome="${env.M2_HOME}">
 			<arg value="package" />
@@ -52,7 +56,7 @@
 
 	<target name="checkOutGit" depends="init">
 		<delete dir="${project.name}" />
-		<git-clone-pull repository="https://github.com/vijithaepa/Alogorithms.git" dest="${project.name}" />
+		<git-clone-pull repository="https://github.com/vijithaepa/AntProject.git" dest="${project.name}" />
 	</target>
 
 </project>

@@ -7,7 +7,7 @@
 			<git localworkingcopy="checkout/Alogorithms" />
 		</modificationset>
 		<schedule interval="300">
-				<ant buildfile="cc-build.xml" target="biuldMvn" />
+				<ant buildfile="cc-build.xml" target="biuldProject" />
 		</schedule>
 		<log dir="logs/Alogorithms">
 			<merge dir="checkout/Alogorithms/build/test-results" />

@@ -1,0 +1,11 @@
+
+
+
+
+Add ant-junit.jar in lib folder of CruiseControl. Error [java.lang.ClassNotFoundException: org.apache.tools.ant.taskdefs.optional.TraXLiaison]
+Add ant-trax.jar in lib folder of CruiseControl. - Error [[junitreport] java.lang.ClassNotFoundException: org.apache.tools.ant.taskdefs.optional.TraXLiaison]
+
+
+ithms\build.xml:54: Errors while applying transformations: Fatal error during transformation
+
+C:\Personal\Vijitha\CCBuilds>C:\SWTools\cruisecontrol-bin-2.8.4\cruisecontrol.bat
