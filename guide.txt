@@ -1,7 +1,7 @@
 
 
 
-
+Remove saxon9.jar from lib folder of CruiseControl. Error [junit-frames.xsl:38: Fatal Error! Unknown extension instruction]
 Add ant-junit.jar in lib folder of CruiseControl. Error [java.lang.ClassNotFoundException: org.apache.tools.ant.taskdefs.optional.TraXLiaison]
 Add ant-trax.jar in lib folder of CruiseControl. - Error [[junitreport] java.lang.ClassNotFoundException: org.apache.tools.ant.taskdefs.optional.TraXLiaison]
 

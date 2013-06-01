@@ -1,4 +1,4 @@
-<cruisecontrol>
+	<cruisecontrol>
 	<project name="Alogorithms">
 		<bootstrappers>
 			<gitbootstrapper localWorkingCopy="checkout/Alogorithms" />
@@ -13,9 +13,16 @@
 			<merge dir="checkout/Alogorithms/build/test-results" />
 		</log>
 		<publishers>
-			<onsuccess>                
-				<artifactspublisher dest="artifacts/Alogorithms" file="checkout/Alogorithms/target/Alogorithms.jar"/>            
-			</onsuccess>
+			<htmlemail mailhost="smtp.mail.yahoo.com" mailport="465" username="vijithaepa@yahoo.com" password="hamas@21029"
+					returnaddress="cruise@mydomain.com"
+					buildresultsurl="http://localhost/cc/buildresults/Alogorithms"
+					skipusers="true" spamwhilebroken="true"
+					css="C:/SWTools/cruisecontrol-bin-2.8.4/webapps/cruisecontrol/css/cruisecontrol.css"
+					xsldir="C:/SWTools/cruisecontrol-bin-2.8.4/webapps/cruisecontrol/xsl"
+					logdir="logs/Alogorithms">
+				<always address="vijithaepa@yahoo.com"/>
+				<failure address="vijithaepa@yahoo.com"/>
+			</htmlemail>
 		</publishers>
 	</project>
 </cruisecontrol>
