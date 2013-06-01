@@ -56,7 +56,7 @@
 
 	<target name="checkOutGit" depends="init">
 		<delete dir="${project.name}" />
-		<!--git-clone-pull repository="https://github.com/vijithaepa/AntProject.git" dest="${project.name}" /-->
+		<git-clone-pull repository="https://github.com/vijithaepa/AntProject.git" dest="${project.name}" />
 	</target>
 
 </project>

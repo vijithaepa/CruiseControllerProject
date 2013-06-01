@@ -1,4 +1,4 @@
-Alogorithms
+CruiseControllerProject
 ===========
 
 This Simple Application for demonstrate CruiseControl build automation configuration.
